@@ -1,0 +1,17 @@
+{
+  "name": "apiquierotrabajar",
+  "version": "1.0.0",
+  "description": "Aplicación para aplicar a trabajos publicados en el portal, dando la posibilidad de subir el cv, recibir calificaciones como empleado, calificar a los empleadores, los empleadores publican sus búsquedas, y tratan de obtener los mejores CV'S",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Pérez",
+  "license": "ISC",
+  "dependencies": {
+    "api-routes": "^0.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.11"
+  }
+}
