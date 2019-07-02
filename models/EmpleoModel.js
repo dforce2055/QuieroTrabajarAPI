@@ -6,10 +6,11 @@ var empleoSchema = new Schema({
     titulo: String,
     descripcion: String,
     fecha_pub: Date,
-    empresa: {
+    /*empresa: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Empresas'  
-    },
+    },*/
+    empresa: String,
     ubicacion: String,//Google Maps
     localidad: String,
     provincia: String,
