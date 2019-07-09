@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5d010888d31ef81a1e4fd057"},"nombre":"Diego","apellido":"Pérez","domicilio":"Jason 915","localidad":"Pinamar","provincia":"Buenos Aires","cp":"7167","cumple":{"$date":{"$numberLong":"522979200000"}},"dni":"32465169","mail":"dperez2055@gmail.com"}
+{"_id":{"$oid":"5d06e9ab76c84e126ac91110"},"nombre":"Andrés","apellido":"Pérez","domicilio":"Rawson 15","localidad":"CABA","provincia":"Buenos Aires","cp":"1080","cumple":{"$date":{"$numberLong":"732942000000"}},"dni":"37528018","mail":"aperez2055@gmail.com"}
