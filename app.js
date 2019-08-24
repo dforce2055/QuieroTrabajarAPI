@@ -12,8 +12,8 @@ var cors = require('cors');
 var app = express();
 
 //Conectar BBDD
-var urlBD = 'mongodb://localhost/quierotrabajar';
-//var urlBD = 'mongodb+srv://mongo:mongos@aplicacionesinteractivas-wko5n.mongodb.net/quierotrabajar?retryWrites=true&w=majority';
+//var urlBD = 'mongodb://localhost/quierotrabajar';
+var urlBD = 'mongodb+srv://mongo:mongos@aplicacionesinteractivas-wko5n.mongodb.net/quierotrabajar?retryWrites=true&w=majority';
 
 //opciones conexion
 var opts = { useNewUrlParser: true, connectTimeoutMS: 20000 };
