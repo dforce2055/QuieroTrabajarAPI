@@ -56,7 +56,7 @@ app.use(cors());
 var port = process.env.PORT || 8080;
 
 // Send message for default URL
-app.get('/', (req, res) => res.send('Quiero Trabajar\n'));
+app.get('/', (req, res) => res.send('Quiero Trabajar Azure\n'));
 
 // Use Api routes in the App
 app.use('/apiQuieroTrabajar', apiRoutes);
